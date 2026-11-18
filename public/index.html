@@ -163,6 +163,8 @@ table.vs.mini td.lose{font-size:11px}
 @media (max-width:700px){.tiles{grid-template-columns:1fr}}
 .flow{flex-wrap:nowrap;gap:4px}.flow span{font-size:10.5px;padding:3px 7px;white-space:nowrap}.flow i{font-size:10px}
 .cols3.soc{align-items:stretch}.cols3.soc>div{display:flex;flex-direction:column}.cols3.soc svg{margin-top:auto}
+@media (max-width:900px){.cols{grid-template-columns:1fr!important}.cols3.soc>div{margin-bottom:8px}}
+@media (max-width:700px){.panel table{display:block;overflow-x:auto;-webkit-overflow-scrolling:touch}.panel table td:not(.n){min-width:110px}.panel table td:first-child{min-width:0}.opp tbody{display:table;min-width:780px}.flow{flex-wrap:wrap}.tiles.two{grid-template-columns:1fr}.panel{padding:14px}.hero-stats{gap:18px}}
 /* Anexo */
 .check.compact.two{display:grid;grid-template-columns:1fr 1fr;column-gap:14px}
 .check.compact.two div{padding:2px 0;font-size:11px}
@@ -284,7 +286,7 @@ table.vs.mini td.lose{font-size:11px}
 
   <section class="panel">
     <h2>Oportunidades para seguimiento · Atención a Esteban</h2>
-    <table>
+    <table class="opp">
       <tr><th>#</th><th>Cliente (nombre de WhatsApp)</th><th>Teléfono</th><th>Tipo</th><th>Qué pidió</th><th style="text-align:right">Último mensaje</th></tr>
       <tr><td>1</td><td>Dolores Vera</td><td class="n" style="text-align:left"><a href="https://wa.me/525554168205" style="color:var(--sky)">55 5416 8205</a></td><td><span class="pill r">Pago</span></td><td>Envió dos fotos y «te envío el comprobante de pago». Confirmar con caja hoy</td><td class="n">17 nov 09:49</td></tr>
       <tr><td>2</td><td>Lalo</td><td class="n" style="text-align:left"><a href="https://wa.me/525539105243" style="color:var(--sky)">55 3910 5243</a></td><td><span class="pill y">Taller</span></td><td>Urgente: Honeywhale T4B, ruido y sin freno. Dijo que llegaba el 16 a las 15:45</td><td class="n">16 nov 14:46</td></tr>
